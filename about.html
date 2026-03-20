@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="p-5 mb-4 bg-danger text-white rounded-3 shadow">
+        <h1 class="display-4 fw-bold">안녕! </h1>
+        <p class="fs-4">
+            "나는 <strong> 로봇박사</strong>가 될 사람입니다."
+        </p>
+    </div>
+
+    <div class="row align-items-md-stretch">
+        <div class="col-md-6 mb-4">
+            <div class="h-100 p-5 bg-light border rounded-3 shadow-sm">
+                <h2 class="fw-bold text-info">📊 My Hobby</h2>
+                <p class="mt-3">
+                    내 취미는 ~~입니다.<br>
+                    일주일에 약 ~~ 시간 정도 즐기고 있어요.<br>
+                    <span class="badge bg-info text-dark">#수학적사고 #데이터분석</span>
+                </p>
+                <p class="text-muted small">
+                    (주말엔 놀아요)
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="h-100 p-5 text-white bg-dark rounded-3 shadow-sm">
+                <h2 class="fw-bold text-warning">🚀 Future Career</h2>
+                <p class="mt-3">
+                    나의 미래 직업을 영어로 표현하면?<br>
+                    <span class="h4 text-warning fw-bold">
+                        ROBOTICS SOFTWARE ENGINEER
+                    </span>
+                </p>
+                <p>
+                    <strong>[이 직업을 선택한 이유를 적어보기!]</strong>
+                </p>
+                <span class="badge bg-secondary">#Software #LEGO #Enginner</span>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+{% endblock %}
